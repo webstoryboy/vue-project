@@ -10,7 +10,8 @@ Vue.js는 현대적이고 직관적인 웹 애플리케이션 프레임워크로
 6. 단방향 데이터 흐름 : Vue.js는 단방향 데이터 흐름을 따릅니다. 즉, 데이터는 항상 상위 컴포넌트에서 하위 컴포넌트로 흐르며, 하위 컴포넌트에서 직접 상위 컴포넌트의 데이터를 수정할 수 없습니다. 이로써 데이터의 흐름이 예측 가능하고 디버깅이 용이해집니다.
 
 ## 셋팅
-`npm init vue@latest`   
+설치 `npm init vue@latest`   
+    
 Project name: … vue-project   
 ✔ Add TypeScript? … <span style="color: blue">No</span> / Yes   
 ✔ Add JSX Support? … No / <span style="color: blue">Yes</span>    
@@ -21,3 +22,6 @@ Project name: … vue-project
 ✔ Add ESLint for code quality? … No / <span style="color: blue">Yes</span>   
 ✔ Add Prettier for code formatting? … No / <span style="color: blue">Yes</span>   
 
+gsap 설치 : `npm install gsap`
+sass 설치 : `npm install sass`
+lenis 설치 : `npm install @studio-freight/lenis`
